@@ -1,0 +1,98 @@
+.upload-panel{
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.08);
+    padding:30px;
+    margin:25px;
+}
+
+
+    
+
+.upload-header{
+display: flex;
+align-items: center;
+gap:18px;
+margin-bottom: 25px;
+
+}
+
+.upload-icon{
+    font-size: 42px;
+    color:#2563eb
+}
+.upload-header h2{
+    margin:0;
+    color:#1e293b;
+
+}
+
+.upload-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 220px;
+    border:2px dashed #2563eb;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: .3s;
+    background:#f8fafc;
+;}
+
+.upload-box:hover{
+    background: #eff6ff;
+  
+}
+
+.pdf-icon{
+    font-size: 48px;
+    color:#2563eb;
+    margin-bottom: 15px;
+}
+.upload-box h3{
+    margin:0;
+    color:#1e293b;
+}
+
+.upload-box p{
+    margin-top: 8px;
+    color:#64748b;
+}
+.selected-file{
+    margin-top:18px;
+    color:#16a34a;
+    font-weight: 600;
+}
+
+.upload-btn{
+
+    margin-top:25px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    background:#2563eb;
+    cursor: pointer;
+    font-weight: 600;
+    color:white;
+    font-size: 16px;
+    height: 52px;
+}
+.upload-btn:hover{
+    background:#1d4ed8;
+}
+.upload-btn:disabled{
+    opacity: .7;
+    cursor: not-allowed;
+}
+
+.success-banner{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding: 15px;
+    border-radius: 10px;
+    background:#dcfce7;
+    font-weight: 600;
+}

@@ -1,0 +1,10 @@
+from sqlalchemy.orm import Session
+from models.complaint import Complaint
+
+def create_complaint(db:Session,data:dict):
+    complaint = Complaint(**data)
+    db.add(complaint)
+    db.commit()
+    db.refresh(complaint)
+
+    return complaint    

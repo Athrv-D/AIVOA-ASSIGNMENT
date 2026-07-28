@@ -1,0 +1,187 @@
+/* ==========================
+   Navbar
+========================== */
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 35px;
+
+    background:#ffffff;
+
+    border-radius:16px;
+
+    box-shadow:0 8px 24px rgba(15,23,42,.08);
+
+    margin:20px;
+
+}
+
+/* ==========================
+   Left
+========================== */
+
+.navbar-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.logo{
+
+    width:58px;
+
+    height:58px;
+
+    border-radius:14px;
+
+    background:#2563eb;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.logo-icon{
+
+    font-size:28px;
+
+    color:white;
+
+}
+
+.navbar-left h2{
+
+    margin:0;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:#1e293b;
+
+}
+
+.navbar-left p{
+
+    margin-top:4px;
+
+    color:#64748b;
+
+    font-size:14px;
+
+}
+
+/* ==========================
+   Right
+========================== */
+
+.navbar-right{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.status-box{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    background:#f8fafc;
+
+    border:1px solid #e2e8f0;
+
+    padding:12px 18px;
+
+    border-radius:12px;
+
+}
+
+.status-icon{
+
+    font-size:24px;
+
+    color:#16a34a;
+
+}
+
+.status-box div{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.status-label{
+
+    font-size:12px;
+
+    color:#64748b;
+
+}
+
+.status-value{
+
+    font-size:15px;
+
+    font-weight:600;
+
+    color:#16a34a;
+
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media(max-width:768px){
+
+    .navbar{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:20px;
+
+    }
+
+    .navbar-right{
+
+        width:100%;
+
+    }
+
+    .status-box{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+    .navbar-left h2{
+
+        font-size:20px;
+
+    }
+
+}

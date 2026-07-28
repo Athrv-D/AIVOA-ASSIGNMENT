@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Inter,Seoge UI, sans-serif;
+}
+
+
+body{
+    background: #f5f7fb;
+    color:#1e293b;
+}
+
+button{
+    cursor:pointer;
+    border:none;
+}
+
+
+input{
+    outline:none
+}
